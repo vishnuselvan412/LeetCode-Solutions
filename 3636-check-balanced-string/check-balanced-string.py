@@ -5,9 +5,6 @@ class Solution:
         for i in range(len(num)):
             if i % 2 == 0:
                 s=s+int(num[i])
-            elif i % 2 != 0:
+            else:
                 neg=neg+int(num[i])
-        if s == neg:
-            return True
-        else:
-            return False
+        return s==neg
