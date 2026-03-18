@@ -7,7 +7,5 @@ class Solution:
                 count += 1
             else:
                 count = 0 
-
             st = max(st,count)
-
         return st
